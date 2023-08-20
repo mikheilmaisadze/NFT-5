@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "work";
+    src: url("WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mono";
+    src: url("SpaceMono-Regular.ttf");
+}
+
+* {
+    color: #fff !important;
+   text-transform: capitalize;
+   font-family: "work" !important;
+}
+
+body {
+    background-color: #2B2B2B !important;
+}
+
+
+nav ul li a {
+    font-weight: 600 !important;
+}
+
+nav ul li button {
+    height: 60px !important;
+    background-color: #A259FF;
+    width: 152px;
+}
+
+nav ul li button:hover {
+    opacity: 0.7;
+}
+
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 214, 214) !important;
+}
+
+nav .href-1::after {
+    content: "";
+    position: absolute;
+    background-color: #A259FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.href-1:hover::after {
+    width: 100%;
+}
+
+.space-ship {
+    height: 560px;
+    background-image: url("Image\ PlaceHolder\ \(20\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section h1 {
+font-size: 51px;
+font-weight: 600 !important;
+}
+
+section h1 + p {
+    color: #858584 !important;
+    font-size: 22px;
+}
+
+.universe {
+font-size: 22px;
+font-weight: 400 !important;
+line-height: 35px;
+}
+
+section h1 + p +p {
+    color: #858584 !important;
+    font-size: 22px;
+    font-family: "mono" !important;
+    font-weight: 700 !important;
+}
+
+section h4 + p {
+    color: #858584 !important;
+    font-size: 22px;
+    font-family: "mono" !important;
+    font-weight: 700 !important;
+}
+
+.details {
+    color: #858584 !important;
+    font-size: 22px;
+    font-family: "mono" !important;
+    font-weight: 700 !important;
+}
+
+
+.moon > button {
+    border: none;
+    background-color: #3B3B3B;
+    height: 46px;
+    text-transform: uppercase !important;
+    padding-inline: 3%;
+    font-size: 16px;
+    width: 22%;
+}
+
+.moon > button:nth-of-type(1) {
+    width: 25%;
+}
+.moon > button:nth-of-type(2) {
+width: 30%;
+}
+.moon > button:nth-of-type(3) {
+ width: 20%;
+}
+.moon > button:nth-of-type(4) {
+ width: 20%;
+}
+
+.auction {
+    width: 295px;
+    height: 237px;
+    background-color: #3B3B3B80;
+    border-radius: 20px;
+}
+
+.auction p {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+
+.auction h4 {
+    font-size: 38px;
+    font-weight: 700 !important;
+}
+
+.auction button {
+    width: 100%;
+    background-color: #A259FF;
+    font-size: 16px;
+    height: 60px !important;
+}
+
+article {
+    margin-top: 120px !important;
+    margin-bottom: 60px;
+}
+
+article button {
+    border: 2px solid #A259FF !important;
+    width: 267px;
+    height: 60px;
+}
+
+.card-footer > div p:first-of-type {
+    font-size: 12px;
+    color: #858584 !important;
+}
+
+.card-footer, .card-body {
+    background-color: #3B3B3B;
+    height: calc(173/2)px;
+}
+
+.card > img {
+    height: 295px;
+}
+
+.card {
+    height: 469px;
+}
+
+.card-body > h4 {
+    font-weight: 600 !important;
+}
+
+.mobile h4 {
+    font-size: 22px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.card h4 {
+    text-align: start !important;
+}
+
+.mobile button {
+    border: 2px solid #A259FF;
+    height: 60px;
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: #3B3B3B;
+}
+
+footer p, h1, h2, h3, h4, h5, h6 {
+    background-color: transparent !important;
+}
+
+.template {
+    font-size: 12px !important;
+}
+
+footer input {
+    height: 60px;
+}
+
+footer button {
+    background-color: #A259FF;
+    height: 60px !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+.footer-2 input, button {
+    height: 46px !important;
+  }
+  
+  .footer-2 p {
+      font-size: 16px;
+      font-weight: 400 !important;
+  }
+  
+  .footer-2 h4 {
+      font-size: 22px;
+      font-weight: 700 !important;
+  }
+  
+ 
+  .envelop {
+    height: 46px !important;
+    font-size: 16px !important;
+}
+
+.mobile-item p, h4, h5 {
+    font-size: 16px;
+}
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    .moon button {
+        margin-bottom: 20px;
+    }
+
+    .moon button:first-of-type {
+        width: 150px !important;
+    }
+
+    .moon button:nth-of-type(2) {
+        width: 175px !important;
+    }
+
+    .moon button:nth-of-type(3) {
+        width: 110px !important;
+    }
+
+    .moon button:nth-of-type(4) {
+        width: 110px !important;
+    }
+
+    .space-ship {
+        height: 320px !important;
+        background-image: url("Image\ PlaceHolder\ \(28\).png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .mobile-item p:first-of-type {
+        color: #858584 !important;
+    }
+}
+
+
+footer h4 {
+font-family: "mono" !important;
+font-size: 22px;
+font-weight: 700 !important;
+}
+
+.letter {
+    letter-spacing: 2px;
+}
